@@ -6,30 +6,30 @@ const BannerSale = () => {
   const { navigateTo } = useStore();
 
   return (
-    <section className="py-10 md:py-16 bg-[#FFF8F6]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen flex flex-col bg-[#FFF8F6]">
+      <div className="w-full flex-1 flex">
         
         {/* Sale Banner Card */}
-        <div className="bg-gradient-to-r from-[#FDE8E1] via-[#FCE4DC] to-[#FCE4DC] rounded-3xl overflow-hidden shadow-sm border border-[#FADCD2] relative">
+        <div className="flex-1 bg-gradient-to-r from-[#FDE8E1] via-[#FCE4DC] to-[#FCE4DC] rounded-3xl overflow-hidden shadow-sm border border-[#FADCD2] relative">
           
-          <div className="grid grid-cols-1 md:grid-cols-12 items-center">
+          <div className="grid min-h-screen grid-cols-1 md:grid-cols-12 items-stretch">
             
             {/* Left Image: Girl pointing to right */}
-            <div className="md:col-span-6 relative flex justify-center items-end self-end order-2 md:order-1 pt-6 md:pt-0">
-              <div className="w-full max-w-md lg:max-w-lg overflow-hidden flex items-end justify-center">
+            <div className="md:col-span-6 relative flex justify-center items-end order-2 md:order-1 pt-6 md:pt-0">
+              <div className="w-full h-full overflow-hidden flex items-end justify-center">
                 <img
                   src={saleBannerImg}
                   alt="End of the year fashion sale promotion"
-                  className="w-full h-auto max-h-[460px] object-cover object-top hover:scale-102 transition duration-500"
+                  className="w-full h-[45vh] md:h-[90vh] object-contain object-bottom hover:scale-102 transition duration-500"
                 />
               </div>
             </div>
 
             {/* Right Content: Sale Offer & Copy */}
-            <div className="md:col-span-6 p-8 sm:p-12 lg:p-16 order-1 md:order-2 flex flex-col justify-center text-left">
+            <div className="md:col-span-6 p-8 sm:p-12 lg:p-18 order-1 md:order-2 flex flex-col justify-center text-left">
               
               <div className="space-y-1">
-                <h3 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#282523] uppercase tracking-tight leading-none">
+                <h3 className="text-3xl sm:text-4xl lg:text-5xl  text-[#623F25] uppercase tracking-tight leading-none">
                   END OF THE
                 </h3>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-[#FA6651] uppercase tracking-tight leading-tight">

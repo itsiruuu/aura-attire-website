@@ -53,7 +53,7 @@ const Testimonials = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#282523] tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#623F25] tracking-tight">
             What Our Customers Say
           </h2>
 
@@ -64,13 +64,13 @@ const Testimonials = () => {
                 <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
               ))}
             </div>
-            <span className="text-sm font-bold text-neutral-700">
-              (4.8/5.0 from 2k+ reviews)
+            <span className="text-sm  text-neutral-700">
+              (4.9) 4 reviews
             </span>
           </div>
 
           <p className="mt-2 text-sm sm:text-base text-neutral-500 font-normal">
-            Hear what genuine shoppers feel about the quality and fit.
+           Join our growing community of fashion-forward shoppers.
           </p>
         </div>
 

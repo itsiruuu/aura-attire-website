@@ -41,7 +41,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full bg-[#181818] text-white pt-20 pb-12">
+    <footer className="w-full bg-[#201E1E] text-white pt-20 pb-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* 1. Newsletter Section ("Stay in Style") */}
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
 
             <p className="text-xs sm:text-sm text-neutral-400 font-normal leading-relaxed max-w-sm">
-              Where style meets personalization. Create fashion that's uniquely yours with our customizable collections.
+              Where style meets personalization. Create fashion that's uniquely yours  with our customizable collections.
             </p>
 
             {/* Social Icons */}

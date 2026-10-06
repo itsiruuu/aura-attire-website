@@ -88,11 +88,11 @@ const ProductGrid = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#282523] tracking-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#623F25] tracking-tight">
             Style Steals You Can't Miss.
           </h2>
           <p className="mt-3 text-sm sm:text-base text-neutral-500 font-normal leading-relaxed">
-            Carefully curated deals with unbelievable discounts on quality fashion.
+            Get up to 50% OFF on selected styles for men, women, and kids. Limited time only!
           </p>
         </div>
 
